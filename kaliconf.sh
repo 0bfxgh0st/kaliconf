@@ -13570,7 +13570,7 @@ xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorVirtual1/workspace0/la
 xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-filesystem -s false
 xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-home -s false
 xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-trash -s false
-xfconf-query -c xfce4-panel -n -p /panels/panel-1/autohide-behavior -t "uint" -s 2
+#xfconf-query -c xfce4-panel -n -p /panels/panel-1/autohide-behavior -t "uint" -s 2
 
 sudo rm -r -f /home/$USER/.config/qterminal.org
 sudo mkdir /home/$USER/.config/qterminal.org
